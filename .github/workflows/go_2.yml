@@ -2,7 +2,7 @@ name: GoTestSeveralJobs_002
 
 on:
   push:
-    branches: ["new_branch"]
+    branches: ["new_workflow"]
 
 jobs:
 

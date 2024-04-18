@@ -9,11 +9,11 @@ func TestMaxInt(t *testing.T) {
 
 	res := MaxInt(a, b)
 
-	if res != a {
+	if res != b {
 		t.Errorf("expected %d, got %d", a, res)
 	}
 }
 
-/*func TestMain(m *testing.M) {
+func TestMain(m *testing.M) {
 	main()
-}*/
+}
